@@ -11,7 +11,7 @@ function calculateAge() {
     const age = getAge(bdayValue);
     // console.log(age);
     resEl.style.display = "block";
-    resEl.innerText = `Your are ${age} ${age > 1 ? "years" : "year"} old`;
+    resEl.innerText = `You are ${age} ${age > 1 ? "years" : "year"} old`;
   }
 }
 
